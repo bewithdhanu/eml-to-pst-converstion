@@ -17,6 +17,12 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("org.springframework.boot:spring-boot-starter-web:3.2.1")
+
+	implementation("com.hynnet:jacob:1.18")
+	implementation("org.slf4j:slf4j-api:1.7.32")
+	implementation("ch.qos.logback:logback-classic:1.4.12")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
